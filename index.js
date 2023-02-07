@@ -1,4 +1,4 @@
-// mindGame function is like arithmetic operators which is used to perform mathematical calculations. 
+// mindGame function acts like arithmetic operators which is used to perform mathematical calculations. 
 
 function mindGame(number) {
 
@@ -8,9 +8,9 @@ function mindGame(number) {
     const output = ((((number * 3) + 10) / 2) - 5);
     return output;
 }
-console.log(mindGame(33));
 
-// This evenOdd function checks whether the number of characters stored in the input (string) variable is an even or an odd number using modulus operation.
+
+// This evenOdd function checks whether the number of characters stored in the input (string) is an even or an odd number using modulus operation.
 
 function evenOdd(string) {
     
@@ -24,7 +24,7 @@ function evenOdd(string) {
         return 'odd';
     }
 }
-console.log(evenOdd('phero'));
+
 
 // The isLGSeven function is used to checks  the difference between 7 and given input whether the result is less than seven it returned as same as it is. But when the result is more than 7, double of the input was returned.
 
@@ -41,7 +41,7 @@ function isLGSeven(number) {
         return (number * 2);
     }
 }
-console.log(isLGSeven(15));
+
 
 // findingBadData this function is used to find out the total number of bad data or negative numbers containing in the input array. 
 
@@ -60,7 +60,7 @@ else{
     return false;
 }
 }
-console.log(findingBadData([2,1, 5,]));
+
 
 // gemsToDiamond function is used to summarize the conversion of three friends gems power to diamond. Here depending on the input value, total diamond was returned by subtracting 2000 from total value when it was more than 2000. Otherwise it was returned as same it is.
 
@@ -89,4 +89,3 @@ else{
     return totalDiamond;
 }
 }
-console.log(gemsToDiamond(100,5,1));
